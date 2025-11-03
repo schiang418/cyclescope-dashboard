@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "service_name": "CycleScope",
+    "total_charts": 18,
+    "created_date": "2025-10-25",
+    "description": "18 core market analysis charts for automated daily analysis"
+  },
+  "charts": [
+    {
+      "id": 1,
+      "name": "SPX_Secular_Trend",
+      "description": "S&P 500 Secular Trend (Monthly)",
+      "category": "Market Trend",
+      "priority": "critical",
+      "url": "https://schrts.co/ibFUedcP"
+    },
+    {
+      "id": 2,
+      "name": "Copper_Gold_Ratio",
+      "description": "Copper/Gold Ratio (Economic Health)",
+      "category": "Macro",
+      "priority": "high",
+      "url": "https://schrts.co/qNPubctQ"
+    },
+    {
+      "id": 3,
+      "name": "US_Dollar_Index",
+      "description": "US Dollar Index (DXY)",
+      "category": "Macro",
+      "priority": "critical",
+      "url": "https://schrts.co/UVipTWeD"
+    },
+    {
+      "id": 4,
+      "name": "Treasury_10Y_Yields",
+      "description": "10-Year Treasury Yields",
+      "category": "Macro",
+      "priority": "critical",
+      "url": "https://schrts.co/JwzwrkNe"
+    },
+    {
+      "id": 5,
+      "name": "HYG_IEF_Ratio",
+      "description": "High Yield vs Treasury (HYG:IEF)",
+      "category": "Risk Appetite",
+      "priority": "high",
+      "url": "https://schrts.co/hRQFjuGD"
+    },
+    {
+      "id": 6,
+      "name": "JNK_IEF_Ratio",
+      "description": "Junk Bond vs Treasury (JNK:IEF)",
+      "category": "Risk Appetite",
+      "priority": "high",
+      "url": "https://schrts.co/vzUPsuJK"
+    },
+    {
+      "id": 7,
+      "name": "LQD_IEF_Ratio",
+      "description": "Investment Grade vs Treasury (LQD:IEF)",
+      "category": "Risk Appetite",
+      "priority": "medium",
+      "url": "https://schrts.co/GGDNXfXy"
+    },
+    {
+      "id": 8,
+      "name": "XLY_XLP_Ratio",
+      "description": "Consumer Discretionary vs Staples (XLY:XLP)",
+      "category": "Risk Appetite",
+      "priority": "critical",
+      "url": "https://schrts.co/vKKGFDPr"
+    },
+    {
+      "id": 9,
+      "name": "IWF_IWD_Ratio",
+      "description": "Growth vs Value (IWF:IWD)",
+      "category": "Risk Appetite",
+      "priority": "high",
+      "url": "https://schrts.co/NGenHtpa"
+    },
+    {
+      "id": 10,
+      "name": "RSP_SPY_Ratio",
+      "description": "Equal Weight vs Market Cap (RSP:SPY)",
+      "category": "Breadth",
+      "priority": "high",
+      "url": "https://schrts.co/wZfRYNgR"
+    },
+    {
+      "id": 11,
+      "name": "XLK_XLP_Ratio",
+      "description": "Technology vs Staples (XLK:XLP)",
+      "category": "Sector",
+      "priority": "high",
+      "url": "https://schrts.co/jFJwQSyx"
+    },
+    {
+      "id": 12,
+      "name": "SMH_SPY_Ratio",
+      "description": "Semiconductors vs S&P 500 (SMH:SPY)",
+      "category": "Sector",
+      "priority": "high",
+      "url": "https://schrts.co/NFhmcdEy"
+    },
+    {
+      "id": 13,
+      "name": "SPXA50R",
+      "description": "S&P 500 % Above 50-day MA",
+      "category": "Breadth",
+      "priority": "critical",
+      "url": "https://schrts.co/NwmJfADb"
+    },
+    {
+      "id": 14,
+      "name": "SPXA150R",
+      "description": "S&P 500 % Above 150-day MA",
+      "category": "Breadth",
+      "priority": "high",
+      "url": "https://schrts.co/TihhqDrR"
+    },
+    {
+      "id": 15,
+      "name": "SPXA200R",
+      "description": "S&P 500 % Above 200-day MA",
+      "category": "Breadth",
+      "priority": "critical",
+      "url": "https://schrts.co/fqSwKPIQ"
+    },
+    {
+      "id": 16,
+      "name": "CPCE_Put_Call",
+      "description": "Put/Call Ratio with 253-day SMA",
+      "category": "Sentiment",
+      "priority": "high",
+      "url": "https://schrts.co/XdYdgKQG"
+    },
+    {
+      "id": 17,
+      "name": "VIX_VXV_Ratio",
+      "description": "VIX Term Structure (VIX:VXV)",
+      "category": "Sentiment",
+      "priority": "high",
+      "url": "https://schrts.co/feTvgpFy"
+    },
+    {
+      "id": 18,
+      "name": "VVIX",
+      "description": "Volatility of VIX (VVIX)",
+      "category": "Sentiment",
+      "priority": "medium",
+      "url": "https://schrts.co/HuFZgpqw"
+    }
+  ]
+}
+
