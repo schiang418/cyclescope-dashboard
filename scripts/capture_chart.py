@@ -36,7 +36,22 @@ def setup_driver():
     chrome_options.add_argument('--disable-software-rasterizer')
     chrome_options.add_argument('--disable-extensions')
     chrome_options.add_argument('--disable-setuid-sandbox')
-    # chrome_options.add_argument('--single-process')  # Causes Chrome to crash with DevTools disconnection
+    # IMPORTANT: --single-process flag is REQUIRED for Railway deployment
+    # History:
+    # - 2025-11-14: Removed due to DevTools disconnection issues in local dev
+    # - 2025-11-19: Re-enabled in cyclescope-delta-dashboard for Railway stability
+    # - 2025-11-25: Mistakenly removed again in this project (cyclescope-dashboard)
+    # - 2025-12-04: Re-enabled to match cyclescope-delta-dashboard's working config
+    # 
+    # Why this flag is needed:
+    # - Without it: Chrome spawns multiple processes, causing "Cannot fork" errors
+    #   in Railway's resource-constrained containers (seen in logs: /bin/sh: 1: Cannot fork)
+    # - With it: Chrome runs in single-process mode, drastically reducing memory usage
+    #   and preventing fork failures
+    # 
+    # Result: cyclescope-delta-dashboard has 100% success rate with this flag enabled,
+    # while cyclescope-dashboard fails daily without it.
+    chrome_options.add_argument('--single-process')
     chrome_options.add_argument('--disable-background-networking')
     chrome_options.add_argument('--disable-default-apps')
     chrome_options.add_argument('--disable-sync')
